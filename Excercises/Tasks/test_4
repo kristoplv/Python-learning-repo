@@ -1,0 +1,25 @@
+if statements.
+
+One of the most powerful assets in programming are if/elif/else statements!
+We use them to check if the values match our parameters, for example:
+ I have a list of names and I want add a new name to the list.
+ But if the name is already on the list, i want to print a corresponding message
+ and if the name isn't in the list, i'll add it and print out a message.
+ 
+ my_list = ["John", "Gary", "Marcus", "Taylor"]
+ new_name = input("new name: ")
+ 
+ if new_name in my_list:
+    print("That name is already in the list!")
+ else:
+    my_list.append(new_name)
+    print(new_name, "added to the list")
+    print(my_list)
+ 
+A perfect example of using an if/else statement!
+
+Now for the excercise.
+Create a list of numbers that has at least 5 values. Use the input method to add a new number. The number must be: bigger than the smallest value in the list,
+smaller than the biggest number in the list and the number cannot be a number that is already in the list.
+
+You should use the 'greater-than, smaller-than' signs for this exercise!
