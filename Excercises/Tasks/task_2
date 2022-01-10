@@ -1,0 +1,7 @@
+Let's talk about the input() method.
+Defining a variable and giving it the value of input() will let you give the variable a value of your own choice.
+For example, name = input("Your name: ") will print "Your name" into the terminal and let you input a value to the name variable.
+
+Lets do the same thing we did in task_1.
+Define variables first_name, last_name, age and give them an input function.
+Then print them to the terminal as was done in the first excercise.
