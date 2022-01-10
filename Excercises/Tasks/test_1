@@ -1,1 +1,9 @@
-hello!
+We'll start simple!
+In this excercise you'll learn how to create variables and print them.
+
+Create a variable named 'first_name' and a variable called 'last_name' and give them a value.
+Now print them both separately and together in a single print.
+Make the print prettier, adding text to it (for example: "Hello, my name is...")
+Create a new variable called 'age' and print it.
+
+#solution in "solutions" folder, named test_1_solution.
