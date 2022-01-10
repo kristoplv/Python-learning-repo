@@ -1,0 +1,5 @@
+first_name = input("first name:")
+last_name = input("last name:")
+age = input("age:")
+
+print("hello, my name is", first_name, last_name, "and I am", age, "years old")
