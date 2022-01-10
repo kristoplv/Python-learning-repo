@@ -1,0 +1,8 @@
+first_name = "Dave"
+last_name = "Kimber"
+age = 22
+
+print(first_name)
+print(last_name)
+print(first_name, last_name)
+print("hello, my name is", first_name, last_name, "and I am", age, "years old")
