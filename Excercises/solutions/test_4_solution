@@ -1,0 +1,9 @@
+my_list = [23, 11, 5, 45, 100, 99]
+new_nr = int(input("New number: "))
+
+if min(my_list) < new_nr < max(my_list) and new_nr not in my_list:
+    my_list.append(new_nr)
+    print(new_nr, "added successfully!")
+    print(my_list)
+else:
+    print("Uh-oh! Not the number we are looking for!")
