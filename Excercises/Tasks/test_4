@@ -23,3 +23,4 @@ Create a list of numbers that has at least 5 values. Use the input method to add
 smaller than the biggest number in the list and the number cannot be a number that is already in the list.
 
 You should use the 'greater-than, smaller-than' signs for this exercise!
+You should also pass the new number as an integer: new_nr = int(input("new number: ")) because the input() function passes values as a string by default :)
