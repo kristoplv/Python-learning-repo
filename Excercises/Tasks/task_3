@@ -1,0 +1,26 @@
+Let's explore the magical land of collection data types (arrays) in Python.
+
+There are four ways to collect data in Python:
+  1) List - Allows duplicate members and is changeable, you can create a list using the list() function or using sqare brackets => my_list = ["Toyota", "BMW", "Mercedes"]
+  2) Tuple - Allows duplicates, cannot be changed, is a bit faster than a list. To create a Tuple, use round brackets => my_tuple = ("Toyota", "BMW", "Mercedes")
+  3) Set - Does not allow duplicates, set items cannot be changed but items can be added and removed. To create, use curly brackets my_set = {"Toyota", "BMW", "Mercedes"}
+  4) Dictionary - No duplicate members, is changeable. To create a dictionary, we'll use curly brackets once again.
+  my_dict = {
+    "mark": "Toyota",
+    "model": "Celica",
+    "year": 2002
+  }
+  
+In this excercise you'll create a list and print out the length of the list and all of it's values as well as individually print out every value in a list.
+Make sure that your list has at least 3 values.
+Then try to add more values into the list inside your program.
+  
+Create another list that only has integer values, for example my_list = [23, 4, 3, 14, 2]
+Now find the smallest and biggest value in the list as well as the sum of all the values in the numbers list.
+  
+Useful functions:
+  .append()
+  len()
+  min()
+  max()
+  sum()
